@@ -1,0 +1,112 @@
+.id-container {
+    margin: 1em;
+    background-color: var(--yellow);
+    border-radius: 1em;
+}
+
+.id-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.id-card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.card-pic {
+    width: 7em;
+    height: 7em;
+    border: 1px solid white;
+    border-radius: 50%;
+    flex-basis: 7em;
+}
+
+
+.card__record {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.trophy-icon{
+    width: 7em;
+    height: 7em;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+
+.record__contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.record__contents > * {
+    margin: 0.3em 0;
+}
+
+.record__name {
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: white;
+    color: var(--yellow);
+    border-radius: 10px;
+    padding: 0.3em;
+    border: none;
+    margin: 0 0.5em;
+}
+
+.record__name:hover {
+    background-color: var(--blue);
+    color: white;
+    /* js로 눌렀을 때 색상변환 배경은--blue 글씨는 white */
+}
+
+.record__count {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.id-card__bot {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 7em;
+}
+.card-profile > span {
+    margin: var(--text-margin) 0;
+}
+
+.my-sports {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    font-size: 2em;
+    border-radius: 1em;
+}
+
+.my-sports > i:hover {
+    color: var(--blue);
+}
+
+
+.main__gallery > img {
+    width: 30%;
+    height: 5em;
+}

@@ -1,5 +1,8 @@
 :root {
-    --color: #61C7CB;
+    --blue: #61C7CB;
+    --red: #F0524E;
+    --yellow: #EDC876;
+    --text-margin: 0.2em;
     /* --horizontal-space: 25px;
     --main-border: 1px solid rgba(0, 0, 0, 0.2);
     --gray: rgba(0, 0, 0, 0.5); */

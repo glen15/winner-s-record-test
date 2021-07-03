@@ -11,8 +11,9 @@
 @import "components/icon-row.css";
 @import "components/no-mobile.css"; */
 
-@import "variables.css";
 @import "reset.css";
+@import "variables.css";
+
 
 
 /* Screens */

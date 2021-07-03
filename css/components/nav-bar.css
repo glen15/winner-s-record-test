@@ -30,7 +30,7 @@
 
 .nav__btns > span {
     font-size: 0.7em;
-    margin-top: 0.2em;
+    margin-top: var(--text-margin);
 }
 
 .nav__btn {
@@ -39,5 +39,5 @@
 }
 
 .nav__btns:hover {
-    color: var(--color);
+    color: var(--blue);
 }
