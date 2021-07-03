@@ -50,14 +50,12 @@
                         <img class="trophy-icon" src="./img/logo.png" alt="#"> <!--트로피 이미지 교체가능 : 수집형 아이콘-->                        
                         <div class="record__contents">
                             <div class="record__names">
-                                <span class="record__name">Total</span>
-                                <span class="record__name">Official</span>
-                                <span class="record__name">Friendly</span>
+                                <button class="record__name card-btn">Total</button>
                             </div> <!--누르면 공식, 친선, 전체 기록 변경되도록 버튼색상도 변경-->
                             <div class="record__count">
                                 <span>Victory : 12</span>
                             </div> <!--여기서는 승수만, 종목별들어가면 승패 승률 랭킹-->
-                            <button class=record__name>Enter</button>
+                            <button class=card-btn>Enter</button>
                         </div>
                     </div>
                 </div>
@@ -75,20 +73,48 @@
                 </div>
             </div>
         </section>
-        <section class="contents-container">
-            <div class="main__gallery">
-                <img src="./img/gallery/1.jpeg" alt="">
-                <img src="./img/gallery/2.jpeg" alt="">
-                <img src="./img/gallery/3.jpeg" alt="">
+        <section id="contents-manu">
+            <button class="card-btn">Gallery</button>
+            <button class="card-btn">Record</button>
+            <button class="card-btn">Friend</button>
+            <button class="card-btn">Message</button>
+            <button class="card-btn">Comments</button>
+            <!-- 누르면 엑티브상태(지금 호버옵션), 밑에 컨텐츠에 해당 버튼 내용 나오도록 -->
+        </section>
+        <section id="contents-container">
+            <div class="comments-controler">
+                <button class="card-btn">Create</button>
+                <button class="card-btn">Edit</button>
+                <button class="card-btn">Delete</button>
             </div>
-            <div class="main__note">
-                <div class="my-note">
-                    <span>나</span>
-                    <span>요즘 너무 바쁨</span>
+            <div class="comments" style="overflow:scroll; width:100%; height:17em;">
+                <div class="friends-comment">
+                    <div class="comment__pic">
+                        <img src="./img/my pic2.png" alt="#">
+                    </div>
+                    <div class="comment__contents">다시 한판 붙어!</div>
+                    <div class="comment__time">2021-07-01-14:12</div>
                 </div>
-                <div class="friends-note">
-                    <span>친구</span>
-                    <span>다시 한판 붙어!</span>
+                <div class="my-comment">
+                    <div class="comment__pic">
+                        <img src="./img/My pic.jpeg" alt="#">
+                    </div>
+                    <div class="comment__contents">요즘 너무 바쁨</div>
+                    <div class="comment__time">2021-07-01-14:37</div>
+                </div>
+                <div class="friends-comment">
+                    <div class="comment__pic">
+                        <img src="./img/my pic2.png" alt="#">
+                    </div>
+                    <div class="comment__contents">와 이렇게 도망간다고?</div>
+                    <div class="comment__time">2021-07-01-14:37</div>
+                </div>
+                <div class="my-comment">
+                    <div class="comment__pic">
+                        <img src="./img/My pic.jpeg" alt="#">
+                    </div>
+                    <div class="comment__contents">너 개못하잖아!</div>
+                    <div class="comment__time">2021-07-01-14:37</div>
                 </div>
             </div>
         </section>

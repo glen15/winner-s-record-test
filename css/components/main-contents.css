@@ -1,0 +1,36 @@
+#contents-manu {
+    background-color: var(--blue);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    height: 3em;
+    border-radius: 1em;
+    align-items: center;
+
+}
+
+#contents-manu > button {
+    width: 6em;
+    margin: 0 1em;
+}
+
+#contents-manu > button:last-child {
+    background-color: var(--red);
+    color: white;
+    /* 지금 눌려있는 것처럼 처리 */
+}
+
+
+#contents-manu > button:hover {
+    border: 1px solid white
+}
+
+
+#contents-container {
+    background-color: var(--yellow);
+    margin: 1em;
+    padding: 0.2em;
+    border-radius: 1em;
+}

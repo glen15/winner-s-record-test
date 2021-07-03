@@ -45,25 +45,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
 .record__contents > * {
     margin: 0.3em 0;
 }
 
-.record__name {
+.card-btn {
     font-size: 0.8em;
     font-weight: bold;
     background-color: white;
     color: var(--yellow);
     border-radius: 10px;
-    padding: 0.3em;
+    padding: 0.3em 0.3em 0.3em 0.5em;
     border: none;
-    margin: 0 0.5em;
+    width: 10em;
+    height: 2em;
 }
 
-.record__name:hover {
+.card-btn:hover {
     background-color: var(--blue);
     color: white;
     /* js로 눌렀을 때 색상변환 배경은--blue 글씨는 white */
@@ -105,8 +106,3 @@
     color: var(--blue);
 }
 
-
-.main__gallery > img {
-    width: 30%;
-    height: 5em;
-}

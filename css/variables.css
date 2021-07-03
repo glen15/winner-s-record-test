@@ -1,10 +1,12 @@
 :root {
     --blue: #61C7CB;
+    --blue2: #97DEF8;
     --red: #F0524E;
     --yellow: #EDC876;
     --text-margin: 0.2em;
+    --gray: rgba(0, 0, 0, 0.3);
     /* --horizontal-space: 25px;
-    --main-border: 1px solid rgba(0, 0, 0, 0.2);
-    --gray: rgba(0, 0, 0, 0.5); */
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);*/
+    
   }
   
