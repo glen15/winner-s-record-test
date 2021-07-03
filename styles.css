@@ -1,0 +1,64 @@
+body {
+    background-color: #080201;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-background {
+    background-size: cover;
+    width: 35em;
+    height: 25em;
+}
+
+.login__title {
+    color: #61C7CB;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.login__input > input {
+    margin: 0.2em;
+}
+
+.login__btns {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.login__btn {
+    background-color: #61C7CB;
+    margin: 0.2em;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+
+#login__sports {
+    color: white;
+    margin-top: 1em;
+    width: 35em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#login__sports > i {
+    margin: 0 0.2em;
+}
