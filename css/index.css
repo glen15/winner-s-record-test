@@ -1,10 +1,4 @@
-body {
-    background-color: #080201;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #login-background {
     background-size: cover;
@@ -12,17 +6,18 @@ body {
     height: 25em;
 }
 
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .login__title {
     color: #61C7CB;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-}
-
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 0.5em;
 }
 
 .login__input {
@@ -40,7 +35,6 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    text-align: center;
 }
 
 .login__btn {
@@ -49,6 +43,13 @@ body {
     border-radius: 5px;
     width: 150px;
     height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    font-weight: bold;
+    
 }
 
 #login__sports {
@@ -60,5 +61,5 @@ body {
 }
 
 #login__sports > i {
-    margin: 0 0.2em;
+    margin: 0 0.5em;
 }
