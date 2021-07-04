@@ -22,12 +22,6 @@
     /* 지금 눌려있는 것처럼 처리 */
 }
 
-
-#contents-manu > button:hover {
-    border: 1px solid white
-}
-
-
 #contents-container {
     background-color: var(--yellow);
     margin: 1em;

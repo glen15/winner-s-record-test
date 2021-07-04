@@ -65,7 +65,7 @@
 }
 
 .card-btn:hover {
-    background-color: var(--blue);
+    background-color: var(--red);
     color: white;
     /* js로 눌렀을 때 색상변환 배경은--blue 글씨는 white */
 }
@@ -103,6 +103,6 @@
 }
 
 .my-sports > i:hover {
-    color: var(--blue);
+    color: var(--red);
 }
 
