@@ -16,7 +16,7 @@
     margin: 0 1em;
 }
 
-#contents-manu > button:last-child {
+.main-comments-btn {
     background-color: var(--red);
     color: white;
     /* 지금 눌려있는 것처럼 처리 */
