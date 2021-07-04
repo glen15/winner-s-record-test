@@ -92,7 +92,7 @@
     margin: var(--text-margin) 0;
 }
 
-.my-sports {
+.card-sub {
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
@@ -102,7 +102,7 @@
     border-radius: 1em;
 }
 
-.my-sports > i:hover {
+.card-sub > a > i:hover {
     color: var(--red);
 }
 
